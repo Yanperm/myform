@@ -8,7 +8,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" type="image/png" sizes="16x16" href="-">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon.ico">
 
     <title>Test</title>
 
@@ -89,7 +89,7 @@
           </button>
 
           <a href="#">
-            <img class="" src="#" alt="Logo" style="height:40px; margin:10px;">
+            <img class="" src="assets/favicon.ico" alt="Logo" style="height:40px; margin:10px;">
           </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
@@ -108,7 +108,7 @@
                 ?> <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
-                <li><a href="#"><i class="glyphicon glyphicon-log-out"></i> ออกจากระบบ</a></li>
+                <li><a href="https://www.facebook.com/thaicodingsolution/"><i class="glyphicon glyphicon-user"></i> ติดต่อเรา Thai Coding Solution</a></li>
               </ul>
             </li>
           </ul>
@@ -124,42 +124,38 @@
 
         <ul class="breadcrumb">
           <li><a href="#">หน้าแรก</a></li>
-          <li><a href="#">-</a></li>
-          <li class="active">-</li>
+          <li class="active">หน้าแรก</li>
         </ul>
 
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h3><i class="glyphicon glyphicon-search"></i> ค้นหาข้อมูล</h3>
+            <h3><i class="glyphicon glyphicon-search"></i> ค้นหาข้อมูลผู้ใช้งาน</h3>
           </div>
         </div>
 
         <div class="row">
 
-          <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 
-            <h5 class="">กรุณากอรอกข้อมูล. </h5>
+            <h5 class="">กรุณากรอกข้อมูลให้ครบถ้วนก่อนทำการค้นหาข้อมูล โดยพิมพ์ <mark>user</mark> เพื่อค้นหาข้อมูล</h5>
 
             <form id="form1" class="" action="" method="post" novalidate>
 
               <div class="form-group">
-                <label for="username" ><span class="text-danger">*</span> <i class="glyphicon glyphicon-user"></i> บัญชีผู้ใช้งาน</label>
+                <label for="username" ><span class="text-danger">*</span> บัญชีผู้ใช้งาน</label>
                 <input type="text" class="form-control" id="username" name="username" placeholder="บัญชีผู้ใช้งาน" data-smk-msg="กรุณากรอกบัญชีผู้ใช้งาน" required>
 
               </div>
               
-              <button id="btnSubmit" type="submit" class="btn btn-info" name="button">
+              <button id="btnSubmit" type="submit" class="btn btn-info btn-md" name="button">
                 <span ><i class="glyphicon glyphicon-search"></i> ค้นหาข้อมูล</span>
               </button>
             </form>
 
-
           </div>
 
-        
         </div>
         <!-- End of row -->
-
 
         <div  class="row" id="tableUserDetailRow">
 
@@ -171,17 +167,10 @@
                   <thead>
 
                     <tr>
+
                       <th class="bg-primary" colspan="1"><i class="glyphicon glyphicon-log-in"></i> รายการข้อมูล</th>
 
-                      <th class="bg-primary" colspan="1">
-
-                        <a href="#" class="btn btn-danger btn-sm pull-right"><i class="glyphicon glyphicon-trash"></i> ลบ</a>
-
-                        <a href="#" class="btn btn-warning btn-sm pull-right"><i class="glyphicon glyphicon-edit"></i> แก้ไข</a>
-
-                        <a href="#" class="btn btn-success btn-sm pull-right"><i class="glyphicon glyphicon-save-file"></i> ออกรายงาน</a>
-
-                      </th>
+                      <th class="bg-primary" colspan="1"></th>
 
                     </tr>
 
@@ -196,11 +185,6 @@
                     <tr>
                       <td>useEmail</td>
                       <td id="resultUserEmail"></td>
-                    </tr>
-
-                    <tr>
-                      <td>freq.</td>
-                      <td><span style="font-size:4em;" class="text-success">-</span> -</td>
                     </tr>
 
                 </tbody>
@@ -221,11 +205,11 @@
 
     <footer class="footer">
       <div class="container">
-          <p class="text-muted" style="text-align:center;">
-          2020 &copy; -
-          <br />
-          หากพบปัญหาในการใช้งานโปรดติดต่อ -
-          </p>
+        <p class="text-muted" style="font-family: 'Kanit', sans-serif; text-align:center;">
+          2020 © Thai Coding Solution
+          <br>
+          Facebook: <a href="https://www.facebook.com/thaicodingsolution/">รับเขียนโปรแกรม สอนเขียนโปรแกรม</a>
+        </p>
       </div>
     </footer>
 
@@ -310,9 +294,7 @@
 
       }); //End of ready func()
 
-
     </script>
 
-  
   </body>
 </html>
